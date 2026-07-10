@@ -1,0 +1,22 @@
+# SDS RAG Assistant — Python dependencies
+
+# UI
+streamlit>=1.32.0
+
+# PDF text extraction
+pymupdf>=1.23.0
+
+# Text splitting (chunking)
+langchain-text-splitters>=0.2.0
+
+# Embeddings + generation via Ollama (local)
+requests>=2.31.0
+
+# Vector math for similarity search
+numpy>=1.26.0
+
+# Translation (non-English SDS → English before embedding)
+deep-translator>=1.11.4
+
+# Language detection — statistical model, 55 languages, handles pt/es/fr/de correctly
+langdetect>=1.0.9
