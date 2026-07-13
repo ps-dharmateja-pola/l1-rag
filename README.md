@@ -170,16 +170,3 @@ Calling `VectorStore.switch_collection(pdf_name)` loads only that document's vec
 Queries on Document A never search Document B's vectors.
 
 ---
-
-## Key Files Explained
-
-| File | Purpose |
-|---|---|
-| `config/__init__.py` | Makes `config/` importable as a Python package. Do not delete. |
-| `ingestion/__init__.py` | Same for `ingestion/`. Do not delete. |
-| `models/__init__.py` | Same for `models/`. Do not delete. |
-| `retrieval/__init__.py` | Same for `retrieval/`. Do not delete. |
-| `utilities/__init__.py` | Same for `utilities/`. Do not delete. |
-| `__pycache__/` | Python bytecode cache. Auto-regenerated. Safe to delete. |
-| `data/vector_store/` | Indexed documents. Safe to delete — re-upload to rebuild. |
-| `logs/sds_rag.log` | Runtime log. Safe to delete. |
