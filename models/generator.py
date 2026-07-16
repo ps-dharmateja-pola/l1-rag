@@ -72,7 +72,7 @@ class GeneratorModel:
         if any(kw in query.lower() for kw in ["language", "written in", "what language"]):
             lang_hint = (
                 "\n[LANGUAGE NOTE] Examine the script of the CONTEXT text. "
-                "Cyrillic = Russian. Latin = English or another Latin-script language. "
+                "Cyrillic = Russian. Latin = English"
                 "Report what you actually observe.\n"
             )
 
