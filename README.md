@@ -2,6 +2,7 @@
 
 Upload a Safety Data Sheet PDF and ask questions about it in plain English.
 Supports English, Russian, and other languages. Runs fully locally via Ollama.
+<img width="1717" height="919" alt="image" src="https://github.com/user-attachments/assets/ab1bc228-8555-43d9-8692-4b09a3068d3e" />
 
 ---
 
@@ -170,16 +171,3 @@ Calling `VectorStore.switch_collection(pdf_name)` loads only that document's vec
 Queries on Document A never search Document B's vectors.
 
 ---
-
-## Key Files Explained
-
-| File | Purpose |
-|---|---|
-| `config/__init__.py` | Makes `config/` importable as a Python package. Do not delete. |
-| `ingestion/__init__.py` | Same for `ingestion/`. Do not delete. |
-| `models/__init__.py` | Same for `models/`. Do not delete. |
-| `retrieval/__init__.py` | Same for `retrieval/`. Do not delete. |
-| `utilities/__init__.py` | Same for `utilities/`. Do not delete. |
-| `__pycache__/` | Python bytecode cache. Auto-regenerated. Safe to delete. |
-| `data/vector_store/` | Indexed documents. Safe to delete — re-upload to rebuild. |
-| `logs/sds_rag.log` | Runtime log. Safe to delete. |
