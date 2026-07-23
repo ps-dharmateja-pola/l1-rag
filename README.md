@@ -3,6 +3,7 @@
 Upload a Safety Data Sheet PDF and ask questions about it in plain English.
 Supports English, Russian, and other languages. Runs fully locally via Ollama.
 <img width="1717" height="919" alt="image" src="https://github.com/user-attachments/assets/ab1bc228-8555-43d9-8692-4b09a3068d3e" />
+<img width="1502" height="1001" alt="Screenshot 2026-07-23 153938" src="https://github.com/user-attachments/assets/0c4f745f-8330-4c2b-855f-18017ac53909" />
 
 ---
 
